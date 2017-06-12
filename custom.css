@@ -1,0 +1,165 @@
+/* ============= Global Settings  ============= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html * {
+  color: #555555;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+/* ============= Top-Navigation  ============= */
+
+nav.top-navigation {
+  padding: 0 0 10px 0;
+  overflow: hidden;
+}
+
+.top-logo img {
+  height: 50px;
+  width: auto;
+}
+
+.top-logo span {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 70%;
+  color: #222831;
+  font-weight: bold;
+  position: relative;
+  top: 8px;
+  left: 15px;
+}
+
+.top-navigation-links {
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.top-navigation-links li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.top-navigation-links a {
+  font-size: 50%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.top-navigation-links li:last-child a:last-child{
+  background-color: #99B53B;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #fff;
+}
+
+/* ============= Top-Navigation  ============= */
+
+header.hero-image {
+  background-image: linear-gradient(rgba(64, 75, 95,.3), rgba(64, 75, 99,.3)), url(hero.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+
+}
+
+
+.hero-text {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hero-text p {
+  color: #fff;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 0px;
+}
+
+.hero-text h1 {
+  font-size: 200%;
+  font-weight: bold;
+  color: #f2bc1d;
+}
+
+
+/* ============= Section  Main-Part ============= */
+
+
+section.main-part {
+  padding: 75px 0;
+}
+
+.main-part h3 {
+  font-size: 90%;
+  color: #99B53B;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+}
+
+.main-part h2 {
+  font-size: 125%;
+  text-transform: capitalize;
+  text-transform: uppercase;
+}
+
+.main-part p {
+  font-size: 70%;
+  letter-spacing: 1px;
+  color: #555555;
+  line-height: 26px;
+}
+
+
+/* =============Footer ============= */
+
+footer {
+  background-color: #222831;
+  padding-bottom: 25px;
+}
+
+.footer-logo img {
+  height: 35px;
+  width: auto;
+  border-bottom-left-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.footer-logo span, .social-icons i, .bye-text p {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.footer-logo span {
+  text-transform: uppercase;
+  font-size: 70%;
+  display: block;
+  font-weight: bold;
+}
+
+.social-icons i {
+  font-size: 70%;
+  margin-bottom: 20px;
+}
+
+.bye-text p{
+  font-size: 50%;
+}
+
+.bye-text p:first-child {
+  margin-bottom: 0px;
+}
