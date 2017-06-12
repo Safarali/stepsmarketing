@@ -19,12 +19,23 @@ a, a:hover {
   color: #2c3e50;
 }
 
-/* ============= Top-Navigation  ============= */
-
-nav.top-navigation {
-  padding: 0 0 10px 0;
-  overflow: hidden;
+/* ============= Navigation  ============= */
+nav{
+  height: 62px;
+  position: relative;
 }
+
+.navigation {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background-color: #fff;
+  width: 100%;
+  border-bottom: 1px solid rgba(189, 195, 199, 0.4);
+}
+
+
 
 .top-logo img {
   height: 50px;
@@ -42,38 +53,47 @@ nav.top-navigation {
   left: 15px;
 }
 
-.top-navigation-links {
+.navigation-links {
   list-style-type: none;
   padding-top: 15px;
 }
 
-.top-navigation-links li {
+.navigation-links li {
   display: inline-block;
   margin-left: 15px;
 }
 
-.top-navigation-links a {
+.navigation-links a {
   font-size: 50%;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: bold;
 }
 
-.top-navigation-links li:last-child a:last-child{
+.navigation-links li:last-child a:last-child{
   background-color: #99B53B;
   padding: 10px 15px;
   border-radius: 20px;
   color: #fff;
 }
 
-/* ============= Top-Navigation  ============= */
+/* Mobile navigation icon */
+.js--nav-icon i {
+  float: right;
+  position: relative;
+  top: 25px;
+  right: 10px;
+  color: #222831;
+  display: none;
+  cursor: pointer;
+}
+/* ============= Header  ============= */
 
 header.hero-image {
   background-image: linear-gradient(rgba(64, 75, 95,.3), rgba(64, 75, 99,.3)), url(hero.jpg);
   background-position: center;
   background-size: cover;
   height: 500px;
-
 }
 
 
@@ -95,6 +115,26 @@ header.hero-image {
   color: #f2bc1d;
 }
 
+
+
+/* Carousel signs */
+
+
+.fa.fa-chevron-left, .fa.fa-chevron-right {
+  position: relative;
+  top: 50%;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 2px;
+  background-color: black;
+}
+
+.fa.fa-chevron-left {
+  float: left;
+}
+
+.fa.fa-chevron-right {
+  float: right;
+}
 
 /* ============= Section  Main-Part ============= */
 

@@ -1,5 +1,52 @@
 @media only screen and (max-width: 991px) {
-  .top-navigation-links {
+
+  .top-logo {
+    float: none !important;
+    text-align: center;
+  }
+
+  .navigation-links {
+    float: none !important;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+/* Mobile Navigation */
+  nav div.container {
+    width: 100%;
+  }
+
+  .navigation {
+    padding-bottom: 15px;
+  }
+
+  .top-logo {
+    float: left !important;
+  }
+  .navigation-links {
+    float: left !important;
+    text-align: left;
+    position: absolute;
+    top: 65px;
+    left: 0;
+    background-color: rgba(34, 40, 49, 0.9);
+    width: 100%;
+    clear: left;
+    padding-bottom: 15px;
     display: none;
+  }
+
+  .navigation-links li {
+    display: block;
+
+  }
+
+  .navigation-links a {
+    color: #fff;
+  }
+
+  .js--nav-icon i {
+    display: block;
   }
 }
