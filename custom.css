@@ -14,7 +14,7 @@ html * {
   -webkit-font-smoothing: antialiased;
 }
 
-a, a:hover {
+a, a:hover, a:active, a:visited, a:link {
   text-decoration: none;
   color: #2c3e50;
 }
