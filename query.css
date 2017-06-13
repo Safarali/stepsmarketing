@@ -39,7 +39,14 @@
 
   .navigation-links li {
     display: block;
+    transition: all .5s;
+  }
 
+  .navigation-links li:hover {
+    margin-left: 20px;
+  }
+  .navigation-links li:after  {
+    display: none;
   }
 
   .navigation-links a {

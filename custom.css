@@ -63,6 +63,21 @@ nav{
   margin-left: 15px;
 }
 
+.navigation-links li:after {
+  display: block;
+  content: ' ';
+  height: 2px;
+  width: 0px;
+  background-color: transparent;
+  margin: auto;
+  transition: all .5s;
+}
+
+.navigation-links li:hover:after {
+  width: 30px;
+  background-color: #99B53B;
+}
+
 .navigation-links a {
   font-size: 50%;
   text-transform: uppercase;
@@ -75,6 +90,11 @@ nav{
   padding: 10px 15px;
   border-radius: 20px;
   color: #fff;
+}
+
+.navigation-links li:last-child a:last-child:hover {
+  background-color: #86a517;
+  transition: all .5s;
 }
 
 /* Mobile navigation icon */
